@@ -9,7 +9,7 @@ jobs:
 
       - name: Install and Build
         run: |
-          npm ci --only=production
+          npm ci --only
           npm run build
 
       - name: Deploy 
